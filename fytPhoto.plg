@@ -1,0 +1,83 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: fytPhoto - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/fytPhoto.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\fytPhoto\fytPhoto\FilterSoftglowDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP19F.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A0.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/fytPhoto.pdb" /debug /machine:I386 /out:"bin/fytPhoto.exe" /pdbtype:sept 
+.\Debug\CRectTrackerInheritance.obj
+.\Debug\EditObject.obj
+.\Debug\EditPrevWnd.obj
+.\Debug\EffectLibDlg.obj
+.\Debug\FilterSoftglowDlg.obj
+.\Debug\FrameObject.obj
+.\Debug\fytPhoto.obj
+.\Debug\fytPhotoDlg.obj
+.\Debug\Layer.obj
+.\Debug\ListCtrlEx.obj
+.\Debug\PhotoEditDlg.obj
+.\Debug\PhotoEditWnd.obj
+.\Debug\PngImage.obj
+.\Debug\ScreenSpyDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\Text.obj
+.\Debug\ToolBarDlg.obj
+.\Debug\ViewDlg.obj
+.\Debug\fytPhoto.res
+.\Debug\SignEdit.obj
+.\Debug\LineTrackBar.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A0.tmp"
+<h3>Output Window</h3>
+Compiling...
+FilterSoftglowDlg.cpp
+D:\fytPhoto\fytPhoto\FilterSoftglowDlg.cpp(237) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+D:\fytPhoto\fytPhoto\FilterSoftglowDlg.cpp(213) : warning C4101: 'x1' : unreferenced local variable
+D:\fytPhoto\fytPhoto\FilterSoftglowDlg.cpp(213) : warning C4101: 'x2' : unreferenced local variable
+D:\fytPhoto\fytPhoto\FilterSoftglowDlg.cpp(213) : warning C4101: 'y1' : unreferenced local variable
+D:\fytPhoto\fytPhoto\FilterSoftglowDlg.cpp(213) : warning C4101: 'y2' : unreferenced local variable
+Linking...
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A2.tmp" with contents
+[
+/nologo /o"Debug/fytPhoto.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\CRectTrackerInheritance.sbr
+.\Debug\EditObject.sbr
+.\Debug\EditPrevWnd.sbr
+.\Debug\EffectLibDlg.sbr
+.\Debug\FilterSoftglowDlg.sbr
+.\Debug\FrameObject.sbr
+.\Debug\fytPhoto.sbr
+.\Debug\fytPhotoDlg.sbr
+.\Debug\Layer.sbr
+.\Debug\ListCtrlEx.sbr
+.\Debug\PhotoEditDlg.sbr
+.\Debug\PhotoEditWnd.sbr
+.\Debug\PngImage.sbr
+.\Debug\ScreenSpyDlg.sbr
+.\Debug\Text.sbr
+.\Debug\ToolBarDlg.sbr
+.\Debug\ViewDlg.sbr
+.\Debug\SignEdit.sbr
+.\Debug\LineTrackBar.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A2.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+fytPhoto.exe - 0 error(s), 5 warning(s)
+</pre>
+</body>
+</html>
